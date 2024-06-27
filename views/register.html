@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Usuario</title>
+  <link rel="stylesheet" href="/css/register.css"> 
+  <link rel="icon" type="image/png" href="/images/logo.png">
+</head>
+<body>
+    <div class="logo-search">
+        <div class="logo">
+            <img src="/images/logo-mercado-liebre.svg" width="250px" alt="Logo">
+        </div>
+    </div>
+  <div class="container">
+    <form action="/submit-form" method="post">
+      <div>
+        <label for="nombre">Nombre y Apellido:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div>
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" id="usuario" name="usuario" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+      </div>
+      <div>
+        <label>Perfil del usuario:</label>
+        <input type="radio" id="comprar" name="perfil" value="comprar">
+        <label for="comprar">Comprador</label>
+        <input type="radio" id="vender" name="perfil" value="vender">
+        <label for="vender">Vendedor</label>
+      </div>
+      <div>
+        <label>Categorías de interés:</label>
+        <input type="checkbox" id="electro" name="categorias" value="electro">
+        <label for="electro">Electro</label>
+        <input type="checkbox" id="moda" name="categorias" value="moda">
+        <label for="moda">Moda</label>
+        <input type="checkbox" id="hogar" name="categorias" value="hogar">
+        <label for="hogar">Hogar</label>
+        <input type="checkbox" id="jugueteria" name="categorias" value="jugueteria">
+        <label for="jugueteria">Juguetería</label>
+        <input type="checkbox" id="vidaSana" name="categorias" value="vidaSana">
+        <label for="vidaSana">Vida Sana</label>
+      </div>
+      <div>
+        <label for="foto">Foto de usuario:</label>
+        <input type="file" id="foto" name="foto">
+      </div>
+      <div>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+      </div>
+      <div>
+        <label for="confirmarContrasena">Confirmar Contraseña:</label>
+        <input type="password" id="confirmarContrasena" name="confirmarContrasena" required>
+      </div>
+      <div>
+        <button type="submit" formaction="/">Enviar</button>
+        <button type="reset">Borrar</button>
+        <button type="button" onclick="window.location.href='./views/index.html'">Volver</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

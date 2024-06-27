@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFE600; /* Fondo amarillo */
+  color: #333;
+}
+
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #4c3c3c;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: none;
+}
+
+label[for="comprar"],
+label[for="vender"],
+label[for="electro"],
+label[for="moda"],
+label[for="hogar"],
+label[for="jugueteria"],
+label[for="vidaSana"] {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px 5px 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+  background-color: #3483fa;
+  color: #fff;
+  border-color: #3483fa;
+}
+
+button {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #80B1FA;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #2968c8;
+}
+
+
+button[type="reset"] {
+  background-color: #ddd;
+  color: #333;
+}
+
+button[type="reset"]:hover {
+  background-color: #bbb;
+}
+
+header {
+  background-color: #EAC926;
+  padding: 20px;
+}
+
+header .logo-search {
+  display: flex;
+  justify-content: center;
+}
+
+header .logo img {
+  width: 250px;
+}
+
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer .contenedor-footer {
+  background-color: #fff;
+  color: #333;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .parrafo-final-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .parrafo-final-footer p {
+  display: inline-block;
+}
+
+
+@media (max-width: 900px) {
+  .container {
+    width: 90%;
+  }
+
+  footer .contenedor-footer {
+    flex-direction: column;
+  }
+}
