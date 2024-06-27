@@ -27,6 +27,7 @@ input[type="password"] {
     box-sizing: border-box;
 }
 
+
 .boton {
     display: flex;
     flex-direction: column;
