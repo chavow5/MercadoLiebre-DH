@@ -192,5 +192,19 @@
   </div>
 
 </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navMenu = document.querySelector('.nav-menu');
+
+        burgerMenu.addEventListener('click', () => {
+            if (navMenu.style.left === '0px') {
+                navMenu.style.left = '-250px';
+            } else {
+                navMenu.style.left = '0px';
+            }
+        });
+    });
+</script>
   </body>
 </html>

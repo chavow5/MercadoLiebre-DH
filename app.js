@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // llamar al servidor desde un puerto
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3030;
 app.listen(PORT, () => {
     console.log(`Servidor ejecutándose en el puerto ${PORT}`);
     const now = new Date(); // agrego una hora para saber el tiempo de actualizacion 

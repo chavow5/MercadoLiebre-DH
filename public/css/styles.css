@@ -65,7 +65,7 @@ header .logo,
     padding: 10px 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 500px;
+    width: 200px;
     padding-left: 30px;
 }
 
@@ -395,5 +395,10 @@ footer section i:hover {
     section .product-desc-box p.descuento {
 
         justify-content: start;
+    }
+}
+@media (max-width: 500px) {
+    .burger-menu {
+        display: block;
     }
 }
