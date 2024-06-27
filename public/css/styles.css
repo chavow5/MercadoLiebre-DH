@@ -103,6 +103,7 @@ header nav a:hover {
     color: #644500;
 }
 
+/* burger menu */
 .burger-menu {
     display: none;
     position: absolute;
