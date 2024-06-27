@@ -1,3 +1,13 @@
+/*
+Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+ */
 * {
     margin: 0px;
     padding: 0px;
@@ -20,7 +30,8 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+/* el back va de color amarillo en la paleta de colore 
+yo lo cambie al de mercado libre */
 header {
     background-color: #FFE600;
     padding: 20px;
@@ -246,7 +257,15 @@ section .descripcion {
 section p.descripcion {
     color: #666;
     font-size: 16px;
-    opacity: 0;
+    opacity: 10;
+    /* opacity = 0 no se ve */
+
+}
+section p.descripcion:hover {
+    display: flex;
+    background-color: #FFE600;
+    box-shadow: 0 2px 4px rgba(37, 12, 127, 0.5);
+    border-radius: 7%;
 }
 
 section p.descripcion:hover {
