@@ -48,6 +48,7 @@ header .logo-search {
 
 header .logo,
 .search-container {
+    display: flex;
     flex: 1;
     width: 50%;
 }
@@ -62,10 +63,11 @@ header .logo,
 }
 
 .search-container input[type="search"] {
+    display: flex;
     padding: 10px 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 200px;
+    width: 300px;
     padding-left: 30px;
 }
 
@@ -349,8 +351,9 @@ footer section i:hover {
     }
 
     .search-container input[type="search"] {
-        width: 150px;
-        margin-right: 50px;
+        display: flex;
+        width: 100px;
+        margin-right: 20px;
     }
 
 
