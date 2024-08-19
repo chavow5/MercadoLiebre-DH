@@ -48,7 +48,7 @@ header .logo-search {
 
 header .logo,
 .search-container {
-    display: flex;
+    display: center;
     flex: 1;
     width: 50%;
 }
