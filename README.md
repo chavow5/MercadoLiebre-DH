@@ -1,12 +1,12 @@
-# Mercado Liebre David Ramirez
+#🟡 Mercado Liebre David Ramirez 🟡
 
 Este proyecto es una práctica realizada en el curso de **Digital House** y está inspirado en el diseño y funcionalidad de [MercadoLibre](https://www.mercadolibre.com).
 
-## Descripción
+## Descripción 🟡
 
 **Mercado Liebre** es una aplicación web desarrollada durante las clases para poner en práctica conceptos y tecnologías relacionadas con el desarrollo web. El objetivo es crear una plataforma de comercio electrónico simple que simule algunas de las características clave de MercadoLibre.
 
-## Requisitos
+## Requisitos 🟡
 
 Antes de comenzar, asegúrate de tener instaladas todas dependencias necesarias con el comando:
 
@@ -15,7 +15,7 @@ Antes de comenzar, asegúrate de tener instaladas todas dependencias necesarias 
 ```
 Este comando instalará todas las dependencias listadas en tu archivo `package.json`.
 
-## Cómo Ejecutar
+## Cómo Ejecutar 🟡
 
 1. Abre una terminal integrada en el directorio raíz del proyecto.
 2. Ejecuta el siguiente comando para iniciar la aplicación:
@@ -26,6 +26,6 @@ Este comando instalará todas las dependencias listadas en tu archivo `package.j
 
 Esto lanzará el servidor local y podrás acceder a la aplicación web a través de tu navegador.
 
-## Autor
+## Autor 🟡
 
 Este proyecto fue desarrollado como parte de las prácticas de **Digital House** por [**David Ramirez**](https://github.com/chavow5).
