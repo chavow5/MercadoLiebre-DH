@@ -10,19 +10,26 @@ Este proyecto es una práctica realizada en el curso de **Digital House** y est�
 
 Antes de comenzar, asegúrate de tener instaladas las siguientes dependencias:
 
-- [Express](https://expressjs.com/)  
-
-- [Nodemon](https://nodemon.io/)  
+- [Express](https://expressjs.com/)
+- ```bash
+  npm install
+```
+- [Nodemon](https://nodemon.io/)
+- ```bash
+  npm install nodemon
+```
 
 ## Cómo Ejecutar
 
 1. Abre una terminal integrada en el directorio raíz del proyecto.
 2. Ejecuta el siguiente comando para iniciar la aplicación:
 
-- [node app.js]
+```bash
+  nodemon app.js
+```
 
 Esto lanzará el servidor local y podrás acceder a la aplicación web a través de tu navegador.
 
 ## Autor
 
-Este proyecto fue desarrollado como parte de las prácticas de **Digital House**.
+Este proyecto fue desarrollado como parte de las prácticas de **Digital House** por **David Ramirez**.
