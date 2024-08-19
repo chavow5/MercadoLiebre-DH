@@ -1,4 +1,4 @@
-#🟡 Mercado Liebre David Ramirez 🟡
+## Mercado Liebre David Ramirez 
 
 Este proyecto es una práctica realizada en el curso de **Digital House** y está inspirado en el diseño y funcionalidad de [MercadoLibre](https://www.mercadolibre.com).
 
