@@ -11,11 +11,11 @@ Este proyecto es una práctica realizada en el curso de **Digital House** y est�
 Antes de comenzar, asegúrate de tener instaladas las siguientes dependencias:
 
 - [Express](https://expressjs.com/)
-- ```bash
+```bash
   npm install
 ```
 - [Nodemon](https://nodemon.io/)
-- ```bash
+```bash
   npm install nodemon
 ```
 
