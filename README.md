@@ -19,6 +19,8 @@ Antes de comenzar, asegúrate de tener instaladas las siguientes dependencias:
 1. Abre una terminal integrada en el directorio raíz del proyecto.
 2. Ejecuta el siguiente comando para iniciar la aplicación:
 
+- [node app.js]
+
 Esto lanzará el servidor local y podrás acceder a la aplicación web a través de tu navegador.
 
 ## Autor
