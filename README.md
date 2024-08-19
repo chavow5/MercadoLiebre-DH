@@ -8,16 +8,12 @@ Este proyecto es una práctica realizada en el curso de **Digital House** y est�
 
 ## Requisitos
 
-Antes de comenzar, asegúrate de tener instaladas las siguientes dependencias:
+Antes de comenzar, asegúrate de tener instaladas todas dependencias necesarias con el comando:
 
-- [Express](https://expressjs.com/)
 ```bash
   npm install
 ```
-- [Nodemon](https://nodemon.io/)
-```bash
-  npm install nodemon
-```
+Este comando instalará todas las dependencias listadas en tu archivo `package.json`.
 
 ## Cómo Ejecutar
 
@@ -32,4 +28,4 @@ Esto lanzará el servidor local y podrás acceder a la aplicación web a través
 
 ## Autor
 
-Este proyecto fue desarrollado como parte de las prácticas de **Digital House** por **David Ramirez**.
+Este proyecto fue desarrollado como parte de las prácticas de **Digital House** por [**David Ramirez**](https://github.com/chavow5).
